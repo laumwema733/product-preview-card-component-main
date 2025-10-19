@@ -103,7 +103,7 @@ img {
 .btn:hover {
   background-color: hsl(158, 26%, 20%);
 }
-.btn__add {
+.primary-btn {
   display: flex;
   align-items: center;
   justify-content: center;
