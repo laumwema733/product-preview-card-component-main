@@ -103,9 +103,17 @@ img {
 .btn:hover {
   background-color: hsl(158, 26%, 20%);
 }
+.btn__add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+
 @media (max-width: 42.5rem) {
   body {
     padding: 1.2rem;
+    height: 100vh;
   }
   .grid-container {
     margin-top: 8rem;
@@ -116,10 +124,7 @@ img {
     aspect-ratio: 2/2;
     object-fit: cover;
   }
+
+  
 }
-.btn__add {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1.4rem;
-}
+
