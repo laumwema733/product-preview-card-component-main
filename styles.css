@@ -112,6 +112,14 @@ small {
   }
   .product-img {
     background-image: url(/images/image-product-mobile.jpg);
+    background-size: cover;
+    background-position: center;
     aspect-ratio: 2/2;
   }
+}
+.btn__add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
 }
