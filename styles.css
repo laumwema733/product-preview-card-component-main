@@ -111,7 +111,7 @@ small {
   .container {
   }
   .product-img {
-    background-image: url(/images/image-product-mobile.jpg);
+    background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
     background-position: center;
     aspect-ratio: 2/2;
