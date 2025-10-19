@@ -40,7 +40,7 @@ small {
   font-size: 1.4rem;
   letter-spacing: 0.3rem;
 }
-.grid-container {
+.card {
   max-width: 60rem;
 
   background: var(--white-color);
@@ -115,7 +115,7 @@ img {
     padding: 1.2rem;
     height: 100vh;
   }
-  .grid-container {
+  .card {
     margin-top: 8rem;
     grid-template-columns: 1fr;
   }
@@ -124,7 +124,4 @@ img {
     aspect-ratio: 2/2;
     object-fit: cover;
   }
-
-  
 }
-
