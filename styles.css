@@ -118,6 +118,7 @@ img {
   .card {
     margin-top: 8rem;
     grid-template-columns: 1fr;
+    max-width: 40rem;
   }
   img {
     width: 100%;
