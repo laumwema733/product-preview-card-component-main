@@ -52,10 +52,13 @@ small {
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.product-img {
-  background-image: url(images/image-product-desktop.jpg);
+picture {
+  max-width: 100%;
+}
+img {
+  width: 100%;
   height: 100%;
-  background-size: cover;
+  object-fit: cover;
 }
 .price {
   margin-block: 3.2rem;
@@ -100,7 +103,7 @@ small {
 .btn:hover {
   background-color: hsl(158, 26%, 20%);
 }
-@media (max-width: 37.5rem) {
+@media (max-width: 42.5rem) {
   body {
     padding: 1.2rem;
   }
@@ -108,13 +111,10 @@ small {
     margin-top: 8rem;
     grid-template-columns: 1fr;
   }
-  .container {
-  }
-  .product-img {
-    background-image: url(images/image-product-mobile.jpg);
-    background-size: cover;
-    background-position: center;
+  img {
+    width: 100%;
     aspect-ratio: 2/2;
+    object-fit: cover;
   }
 }
 .btn__add {
