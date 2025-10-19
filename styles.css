@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+/* color */
+
+:root {
+  --primary-color: hsl(158, 36%, 37%);
+  --text-color: hsl(228, 12%, 48%);
+  --cream-color: hsl(30, 38%, 92%);
+  --white-color: hsl(0, 0%, 100%);
+  --font-size: 1.4rem;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: var(--cream-color);
+  height: 80vh;
+  color: var(--text-color);
+  font-family: 'Montserrat', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 120rem;
+  height: 80vh;
+  margin: 0 auto;
+}
+h1 {
+  margin-block: 2.4rem;
+  font-size: 3.2rem;
+  color: #1c232b;
+  font-family: 'Fraunces', serif;
+  line-height: 1;
+}
+small {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: 0.3rem;
+}
+.grid-container {
+  max-width: 60rem;
+
+  background: var(--white-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  margin-top: 28.9rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.product-img {
+  background-image: url(images/image-product-desktop.jpg);
+  height: 100%;
+  background-size: cover;
+}
+.price {
+  margin-block: 3.2rem;
+  font-family: 'Fraunces', serif;
+}
+.current-price {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  display: inline-block;
+  margin-right: 1rem;
+}
+.previous-price {
+  font-size: 1.4rem;
+  text-decoration: line-through;
+}
+.card__content {
+  padding: 3.2rem;
+}
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+.card__description {
+  font-size: 1.4rem;
+  /* letter-spacing: .1rem; */
+  line-height: 1.8;
+  font-weight: 400;
+}
+.btn {
+  width: 100%;
+  padding-block: 1.75rem;
+  outline: none;
+  border: 0;
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  border-radius: 0.8rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  transition: background-color 0.4s ease-in-out;
+}
+.btn:hover {
+  background-color: hsl(158, 26%, 20%);
+}
+@media (max-width: 37.5rem) {
+  body {
+    padding: 1.2rem;
+  }
+  .grid-container {
+    margin-top: 8rem;
+    grid-template-columns: 1fr;
+  }
+  .container {
+  }
+  .product-img {
+    background-image: url(/images/image-product-mobile.jpg);
+    aspect-ratio: 2/2;
+  }
+}
