@@ -28,14 +28,14 @@ body {
   height: 80vh;
   margin: 0 auto;
 }
-h1 {
+.card__title {
   margin-block: 2.4rem;
   font-size: 3.2rem;
   color: #1c232b;
   font-family: 'Fraunces', serif;
   line-height: 1;
 }
-small {
+.card__category {
   text-transform: uppercase;
   font-size: 1.4rem;
   letter-spacing: 0.3rem;
@@ -88,6 +88,7 @@ img {
   line-height: 1.8;
   font-weight: 400;
 }
+/* card-button */
 .btn {
   width: 100%;
   padding-block: 1.75rem;
