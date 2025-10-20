@@ -42,7 +42,6 @@ body {
 }
 .card {
   max-width: 60rem;
-
   background: var(--white-color);
   display: grid;
   grid-template-columns: 1fr 1fr;
